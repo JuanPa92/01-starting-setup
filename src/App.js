@@ -1,11 +1,15 @@
 import React from "react";
-import "./components/Expenses/Expenses.css"
+import "./components/Expenses/Expenses.css";
 import Expenses from "components/Expenses/Expenses";
+import NewExpense from "components/NewExpense/NewExpense";
 
 const App = () => {
   return (
-    <Expenses/>
+    <div>
+      <NewExpense />
+      <Expenses />
+    </div>
   );
-}
+};
 
 export default App;
